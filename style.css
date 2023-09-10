@@ -1,0 +1,199 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Staatliches', cursive; */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #cbcaca;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+body::before{
+content: "";
+width: 100%;
+height: 436px;
+display: block;
+background-color: #535971 ;
+
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+}
+
+#page{
+  width: 750px;
+  margin: auto;
+}
+
+header h1{
+  color: #FFF;
+  font-family: 'Staatliches', 'cursive';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  margin-top: 140px;
+  margin-bottom: 18px;
+}
+
+header p{
+  color: #FFF;
+  width: 417px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 58px;
+}
+
+form{
+  width: 750px;
+  min-height: 500px;
+  background-color: #FFF;
+  text-align: center;
+  margin: auto;
+  border-radius: 8px 8px 0 0 ;
+  padding: 64px;
+  display: flex;
+  flex-direction: column; 
+  /* gap: 30px; */
+
+}
+
+fieldset{
+  border: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+fieldset legend{
+  border-bottom: 1px solid #a7a7ab;
+  font-family: 'Staatliches', 'cursive';
+  color: #535971;
+  line-height: 34px;
+  font-size: 24px;
+  width: 100%;
+  text-align: left;
+  padding: 16px 0;
+  margin-bottom: 40px;
+}
+
+fieldset label{
+  color: #4E4958 ;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+fieldset label span{
+  color: #C1BCCC ;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+fieldset input{
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 8px;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
+
+fieldset .input-wrapper{
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.nome-sobrenome{
+  display: flex;
+  /* flex-direction: column; */
+  gap: 22px;
+}
+
+.nome{
+  text-align: left;
+ 
+}
+.sobrenome{
+  text-align: left;
+}
+
+.nome input{
+width: 300px;
+height: 56px;
+margin-top: 8px;
+border: 1px solid #E6E6F0;
+border-radius: 8px;
+}
+.sobrenome input{
+  width: 300px;
+  height: 56px;
+  margin-top: 8px;
+  border: 1px solid #E6E6F0;
+border-radius: 8px;
+}
+
+fieldset h1{
+  font-family: 'Staatliches', 'cursive';
+  font-weight: 400;
+  color: #535971;
+
+  text-align: left;
+  font-size: 20px;
+  line-height: 34px ;
+  margin-bottom: 8px;
+}
+
+.diaEhora {
+  display: flex;
+  gap: 32px;
+}
+
+fieldset .input-wrapper #date{
+  width: 100%;
+}
+
+#begin, #end{
+  width: 140px;
+}
+
+footer .form-submit{
+  background-color: #535971;
+
+  padding: 52px 71px;
+  text-align: center;
+}
+
+
+footer .form-submit input{
+  font-family: 'Staatliches', 'cursive';
+  font-size: 20px;
+  line-height: 26px;
+  width: 100%;
+  background-color:#FF5374 ;
+  color: #FFF ;
+  border: none;
+  border-radius: 20px ;
+  padding: 15px 40px;
+}
+
+footer .form-submit{
+border-radius: 0px 0px 20px 20px;
+}
+
+footer .form-submit input:hover {
+  background-color: #a03248;
+  cursor: pointer;
+}
+
+input:invalid{
+  border: 1px solid red;
+}
+
+
+
+
+
